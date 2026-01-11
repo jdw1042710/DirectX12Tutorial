@@ -76,6 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="source\MathHelper.h" />
     <ClInclude Include="source\d3dx12.h" />
     <ClInclude Include="source\GameTimer.h" />
     <ClInclude Include="source\Application.h" />
@@ -83,8 +84,10 @@
     <ClInclude Include="source\Util.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="source\MathHelper.cpp" />
     <ClCompile Include="source\GameTimer.cpp" />
     <ClCompile Include="source\Application.cpp" />
+    <ClCompile Include="source\UploadBuffer.h" />
     <ClCompile Include="source\Util.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
