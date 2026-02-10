@@ -76,6 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="source\GeometryGenerator.h" />
     <ClInclude Include="source\MathHelper.h" />
     <ClInclude Include="source\d3dx12.h" />
     <ClInclude Include="source\GameTimer.h" />
@@ -84,6 +85,7 @@
     <ClInclude Include="source\Util.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="source\GeometryGenerator.cpp" />
     <ClCompile Include="source\MathHelper.cpp" />
     <ClCompile Include="source\GameTimer.cpp" />
     <ClCompile Include="source\Application.cpp" />
